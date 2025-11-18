@@ -1,0 +1,1061 @@
+/*-- ----------------------------------------- APD SECTION ------------------------------------------------ --*/
+.apd {
+  display: flex;
+  margin: 0px 150px;
+}
+
+.apd-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  /* box-shadow: 0 2px 10px rgba(41, 41, 41, 0.05); */
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05); /* paling soft */
+  width: 9999%; /*untuk menyesuaikan lebar kontainer apd*/
+}
+
+.apd-container h3 {
+  margin-bottom: 26px;
+  font-size: 30px;
+}
+
+.apd-container p { /* deskripsi apd */
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+/* Tombol Tampilkan */
+.apd-text .btn-tampilan { /* tombol tampilkan */
+  background-color: #f57c00;
+  color: white;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.apd-text .btn-tampilan:hover { 
+  background-color: #EC7100;
+}
+
+/* --------------------------------------------------- NEWS SECTION -------------------------------------------------- */
+.news {
+  display: flex;
+  flex-direction: column;
+  margin-top: 165px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.kelaslihatsemua-diberita {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.kelaslihatsemua-diberita a {
+  text-decoration: none;
+  color: #5EC3B2;
+  font-size: 16px;
+}
+
+.garis-news {
+  display: block; /* membuat elemen hr menjadi block-level */
+  width: 70px;
+  border-bottom: 6px solid #f57c00;
+  /* margin: 0 auto; */
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  border-radius: 3px;
+}
+
+.news h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.news p {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* ---------- CARD NEWS SECTION ------------ */
+
+.berita-section {
+  display: flex;
+  background: #fff;
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05); /* paling soft */
+  margin: 26px 150px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.bdabbad .image-foto-desa {
+  border-radius: 15px 0px 0px 15px;
+  display: block;
+  width: 310px;
+  height: auto;
+}
+
+.kaakaa {
+  width: 100%;
+}
+
+.kaakaa .tanggal-berita-oren {
+  color: #f57c00;
+  font-size: 14px;
+  margin-left: 22px;
+  margin-bottom: 10px;
+}
+
+.kaakaa .pantai {
+  margin-left: 22px;
+  margin-bottom: 26px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.kaakaa .berita-link {
+  text-decoration: none;
+  color: #88D3C6;
+  font-size: 12px;
+  margin-left: 22px;
+}
+
+.kaakaa .deskripsi-warna-abuau {
+  color: #22325B;
+  margin-left: 22px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+/*-- ----------------------------------------- INFORMASI SECTION ------------------------------------------------ --*/
+.information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 149px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.kelaslihatsemua-diinformasi {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.kelaslihatsemua-diinformasi a {
+  text-decoration: none;
+  color: #5EC3B2;
+  font-size: 16px;
+}
+
+.garis-information {
+  display: block; /* membuat elemen hr menjadi block-level */
+  width: 110px;
+  border-bottom: 6px solid #f57c00;
+  /* margin: 0 auto; */
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+   margin-left: auto;
+  border-radius: 3px;
+}
+
+.information-text h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.information p {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* -------------------CARD INFORMASI SECTION---------------- */
+.card-information-section {
+  display: flex;
+  margin: 26px 150px;
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05); /* paling soft */
+  background: #fff;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+  padding: 30px 30px;
+}
+
+.day {
+  color: #FF7A00;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.time {
+  color: #20305A;
+  font-size: 14px;
+}
+
+.month {
+  color: #20305A;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  padding-right: 90px;
+}
+
+.ddsadddsffo {
+ /* padding: 30px 30px; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 16px;
+ /* gap: 10px; */
+}
+
+.btn-lihatdetail {
+  border: 2px solid #FF7B01;
+  /* padding: 12px 25px; */
+  background-color: white;
+  color: #FF7B01;
+  display: flex;
+  width: 150px;
+  height: 48px;
+  text-decoration: none;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-left: 90px;
+}
+
+
+/* ----------------------------------------POTENSI--------------------------------------- */
+.potensi h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar-di-potensi {
+  display: flex;
+  margin-top: 15px;
+}
+
+.garispotensi {
+  display: block; /* membuat elemen hr menjadi block-level */
+  width: 80px;
+  border-bottom: 6px solid #f57c00;
+  /* margin: 0 auto; */
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  border-radius: 3px;
+}
+
+ .a, .b, .c, .d {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center; /* --------Main Axis-------*/
+  align-items: center;  /* --------Cross Axis-------*/
+
+}
+
+.navbar-di-potensi {
+  display: flex;
+  gap: 30px;
+}
+
+.potensi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 165px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button semua */
+.btn-semua {
+  background-color: #64C5B5;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-semua:hover {
+  background-color: #84EBDA;
+}
+
+/* button umkm */
+.btn-umkm {
+  background-color: #84EBDA;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-umkm:hover {
+  background-color: #64C5B5;
+}
+
+/* Container Utama */
+.btn-group-wrapper {
+  display: flex; /* Mengaktifkan Flexbox */
+  justify-content: space-between; /* Menempatkan item di ujung-ujung dan di tengah */
+  align-items: center; /* Meratakan item secara vertikal di tengah */
+  width: 100%; /* Pastikan wrapper mengambil lebar penuh */
+  margin-top: 30px; /* Contoh margin, sesuaikan jika perlu */
+  margin-bottom: 30px; /* Contoh margin */
+  /* Jika Anda ingin wrapper ini berada di dalam container yang lebih besar, 
+   pastikan container parent-nya tidak membatasi lebarnya. */
+}
+
+/* Kelompok Tombol Tengah */
+.main-buttons {
+  display: flex; /* Mengaktifkan Flexbox untuk mengelompokkan tombol */
+  gap: 16px; /* Jarak antar tombol */
+  /* Untuk menempatkan .main-buttons di tengah, kita akan gunakan auto-margins */
+  margin-left: 52rem;
+  margin-right: auto;
+}
+
+/* Gaya Dasar Tombol */
+.btn-tambah-potensi,
+.btn-lihat-peta {
+  background-color: #f57c00; /* Warna oranye */
+  color: white;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 25px; /* Membuat sudut membulat */
+  text-decoration: none; /* Menghilangkan garis bawah link */
+  font-weight: 500;
+  transition: background 0.3s ease; /* Transisi halus saat hover */
+  display: flex; /* Pastikan teks di tengah tombol */
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap; /* Mencegah teks patah ke bawah */
+}
+
+.btn-tambah-potensi:hover,
+.btn-lihat-peta:hover {
+  background-color: #EC7100; /* Warna oranye sedikit lebih gelap saat hover */
+}
+
+/* Link "Lihat semua" */
+.lihat-semua-link {
+  text-decoration: none;
+  color: #5EC3B2; /* Warna mint/teal */
+  font-size: 16px;
+  display: flex; /* Mengaktifkan Flexbox untuk menyusun teks dan panah */
+  align-items: center; /* Meratakan teks dan panah secara vertikal */
+  gap: 5px; /* Jarak antara teks "Lihat semua" dan panah */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.lihat-semua-link .arrow {
+  transition: transform 0.3s ease; /* Transisi untuk efek panah bergerak */
+}
+
+.lihat-semua-link:hover .arrow {
+  transform: translateX(3px); /* Panah bergerak sedikit ke kanan saat hover */
+}
+
+  /* -----------------------------------------------------------------INI----------------------------------------------------------------- */
+.potensi-section-grid {
+  margin-left: 150px;
+  margin-right: 150px;
+  justify-items: center;
+  margin-top: 1.30rem;
+}
+
+.container-potensi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+  gap: 30px 30px; /* row-gap 30px, column-gap 30px */
+  padding: 0; /* padding atas-bawah dan kiri-kanan = 0 */
+  width: fit-content;
+}
+
+.card-potensi {
+  /* border: 1px solid #ccc; */
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05);
+  border-radius: 20px;
+  padding: 16px;
+  background-color: #fff;
+  /* text-align: center; */
+  max-width: 22rem;
+}
+
+.ubah-width-potensi {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.iniwraper {
+  margin-top: 1.30rem;
+  margin-bottom: 1.30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tombol-wisata {
+  display: flex;
+  width: 70px;
+  height: 28px;
+  background-color: #DFF3F0;
+  color: #54525D;
+  /* border: 2px solid #FF7B01; */
+  font-size: 12px;
+  justify-content: center;
+  /* margin-top: 20px; */
+  align-items: stretch;
+  padding: 5px 10px;
+  border-radius: 200px;
+}
+
+.apaajalah h3{
+  padding-bottom: 1rem;
+}
+
+
+/* ----------------------------------------------------LAYANAN------------------------------------------------- */
+.layanan-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 149px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.layanan-text h2 {
+  margin-bottom: 15px;
+}
+
+.garis-layanan {
+  display: block; /* membuat elemen hr menjadi block-level */
+  width: 100px;
+  border-bottom: 6px solid #f57c00;
+  /* margin: 0 auto; */
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  border-radius: 3px;
+}
+
+
+/* --------------------------batas------------------------ */
+
+.ini-grid-dilayanan {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+}
+
+.card-kayanan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  /* background-color: yellow; */
+  width: 274px;
+  height: 248px;
+  flex-direction: column;
+  padding: 20px 20px;
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05);
+  background: #fff;
+}
+
+.ini-imgbulet {
+  overflow: hidden;
+  height: 80px;
+  width: 80px;
+  border-radius: 200px;
+  margin-bottom: 10px;
+}
+
+.dasddamn {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+
+/* ------------------------------LAPOR ONLINE-------------------------------- */
+.lapor-top {
+  display: flex;
+  flex-direction: column;
+  margin-top: 149px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lapor-top h2 {
+  margin-bottom: 15px;
+}
+
+.garislayanan-online {
+  display: block; /* membuat elemen hr menjadi block-level */
+  width: 100px;
+  border-bottom: 6px solid #f57c00;
+  /* margin: 0 auto; */
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  border-radius: 3px;
+}
+
+.btn-lapor-online {
+  display: flex;
+  margin-top: 45px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-laporan {
+  background-color: #f57c00;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-laporan:hover {
+  background-color: #EC7100;
+}
+
+.lihatsemuadilaporonline {
+  text-decoration: none;
+  color: #5EC3B2;
+}
+
+/* --------------------------------KONTEN ARTICLE-------------------------------- */
+
+/* CARD 1 */
+.container-laporonline {
+  display: flex;
+  margin-top: 60px;
+  margin-right: 150px;
+  /* background-color: yellow; */
+  margin-bottom: 0px;
+  margin-left: 150px;
+  height: 248px;
+}
+
+.garis-waktu {
+  /* display: flex;kalau di kasih display garis tidak tembus */
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0px;
+  /* height: 300px;
+  overflow: scroll; */
+  width: 260px;
+  /* margin-left: 150px;
+  margin-top: 140px; */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 108px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.lingkaran {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #5DC3B2;
+  border-radius: 50%;
+}
+
+.bulan {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* NGATUR GARIS POTONG POTONG */
+.garis {
+  width: 3.50px; 
+  height: 212px;
+  border-left: 3.50px dashed #5DC3B2;
+  margin-left: 71px;
+  margin-top: 10px;
+}
+
+
+/* CARD 2 */
+.container-laporonline-dua {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 150px;
+  /* background-color: yellow; */
+  margin-bottom: 0px;
+  margin-left: 150px;
+  height: 248px;
+}
+
+.garis-waktu-dua {
+  /* display: ; */ /* kalau di kasih display garis tidak tembus*/
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0px;
+  /* height: 300px;
+  overflow: scroll; */
+  width: 260px;
+  /* margin-left: 150px;
+  margin-top: 140px; */
+}
+
+.item-dua {
+  display: flex;
+  align-items: center;
+  margin-top: 108px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.lingkaran-dua {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #5DC3B2;
+  border-radius: 50%;
+}
+
+.bulan-dua {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* NGATUR GARIS POTONG POTONG */
+.garis-dua {
+  width: 3.50px; 
+  height: 214px;
+  border-left: 3.50px dashed #5DC3B2;
+  margin-left: 71px;
+  margin-top: 10px;
+}
+
+/* CARD 3 */
+.container-laporonline-tiga {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 150px;
+  /* background-color: yellow; */
+  margin-bottom: 0px;
+  margin-left: 150px;
+  height: 248px;
+}
+
+.garis-waktu-tiga {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0px;
+  /* height: 300px;
+  overflow: scroll; */
+  width: 260px;
+  /* margin-left: 150px;
+  margin-top: 140px; */
+}
+
+.item-tiga {
+  display: flex;
+  align-items: center;
+  margin-top: 108px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.lingkaran-tiga {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #5DC3B2;
+  border-radius: 50%;
+}
+
+.bulan-tiga {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* NGATUR GARIS POTONG POTONG */
+.garis-tiga {
+  width: 3.50px; 
+  height: 0px;
+  border-left: 3.50px dashed #000;
+  margin-left: 71px;
+}
+
+/* --------------------------------cardnya------------------------------------- */
+/* CARD KE 1 */
+.card-section {
+  display: flex;
+  border-radius: 20px;
+  width: 1330px;
+  height: 248px;
+  /* background-color: yellow; */
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05);
+  background: #fff;
+}
+
+.cobagambar {
+  width: 300px;
+  height: 200px;
+  margin-top: 24px;
+  margin-left: 24px;
+  border-radius: 20px;
+}
+
+.deskripsi-lapor-online {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-left: 24px;
+  width: 100%;
+}
+
+.bencanaalam-btn-ditanggapi {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.tagarbencanaalam {
+  font-weight: 800;
+  font-size: 16px;
+  color: #9C9C9C;
+}
+
+.btn-ditangapi {
+  background-color: #FFBF19;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+  font-size: 14px;
+}
+
+.btn-ditangapi:hover {
+  background-color: #F1B518;
+}
+
+.Jalan-Rusak-warna-abuau {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  color: #21305A;
+}
+
+.paragraf-sedikit {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+/* CARD KE 2 */
+.card-section-dua {
+  display: flex;
+  border-radius: 20px;
+  /* margin-left: 10rem; */
+  width: 1330px;
+  height: 248px;
+  /* background-color: yellow; */
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05);
+  background: #fff;
+}
+
+.cobagambar-dua {
+  width: 300px;
+  height: 200px;
+  margin-top: 24px;
+  margin-left: 24px;
+  border-radius: 20px;
+}
+
+.deskripsi-lapor-online-dua {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-left: 24px;
+  width: 100%;
+}
+
+.bencanaalam-btn-ditanggapi-dua {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.tagarbencanaalam-dua {
+  font-weight: 800;
+  font-size: 16px;
+  color: #9C9C9C;
+}
+
+.btn-ditangapi-dua {
+  background-color: #FFBF19;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+  font-size: 14px;
+}
+
+.btn-ditangapi-dua:hover {
+  background-color: #F1B518;
+}
+
+.Jalan-Rusak-warna-abuau-dua {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  color: #21305A;
+}
+
+.paragraf-sedikit-dua {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+/* CARD KE 3 */
+.card-section-tiga {
+  display: flex;
+  border-radius: 20px;
+  width: 1330px;
+  height: 248px;
+  /* background-color: yellow; */
+  background: #fff;
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05);
+}
+
+.cobagambar-tiga {
+  width: 300px;
+  height: 200px;
+  margin-top: 24px;
+  margin-left: 24px;
+  border-radius: 20px;
+}
+
+.deskripsi-lapor-online-tiga {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-left: 24px;
+  width: 100%;
+}
+
+.bencanaalam-btn-ditanggapi-tiga {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.tagarbencanaalam-tiga {
+  font-weight: 800;
+  font-size: 16px;
+  color: #9C9C9C;
+}
+
+.btn-ditangapi-tiga {
+  background-color: #FFBF19;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+  font-size: 14px;
+}
+
+.btn-ditangapi-tiga:hover {
+  background-color: #F1B518;
+}
+
+.Jalan-Rusak-warna-abuau-tiga {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  color: #21305A;
+}
+
+.paragraf-sedikit-tiga {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+/* PETA */
+.container-peta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 135px;
+  margin-bottom: 135px;
+  /* margin-left: 150px;
+  margin-right: 150px; */
+  /* background-color: rebeccapurple; */
+}
+
+.ini-apayah {
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin-top: 1.40rem; 
+  height: 600px;
+}
+
+.mau-ubahpeta {
+  width: 70.88rem;
+  height: 600px;
+}
+
+.peta-grid {
+  display: flex;
+  padding-top: 100px;
+  padding-right: 132px;
+  padding-bottom: 90px;
+  padding-left: 132px;
+  width: auto;
+  height: 644px;
+  /* background-color: yellow; */
+  border-radius: 20px;
+  box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05);
+  background: #fff;
+}
+
+.hero-peta {
+  display: flex;
+  flex-direction: column;
+}
+
+.garispeta {
+  display: block; /* membuat elemen hr menjadi block-level */
+  width: 70px;
+  border-bottom: 6px solid #f57c00;
+  margin-top: 18px;
+  margin-right: 0px;
+  margin-bottom: 28px;
+  margin-left: 0px;
+  justify-content: flex-start;
+  border-radius: 3px;
+}
+
+.pata-article-mid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+.pata-article-mid li {
+  list-style: none;
+}
+
+.pata-article-mid span {
+  text-decoration: none;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  gap: 10px;
+  text-decoration: none;
+  justify-content: flex-start;
+  color: black;
+  align-items: center;
+  font-size: 16px;
+}
+
+.nav-icon-wrapper-orange, .nav-icon-wrapper-mint, .nav-icon-wrapper-darkblue {
+  width: 40px;
+  height: 40px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; /* center secara horizontal */
+  align-items: center; 
+}
+
+/* CTA DI PETA */
+.cta-selengkapnya-dipeta {
+  margin-top: 40px;
+  margin-left: 34px;
+  display: grid;
+  justify-content: flex-start;
+}
+
+.btn-selengkapnya-dipeta {
+  background-color: #FF7A00;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-selengkapnya-dipeta:hover {
+ background-color: #F1B518;
+}

@@ -1,0 +1,113 @@
+/* == NAVBAR == */
+.navbar {
+  width: 100%;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 150px; /* 20 atas bawah 150 kanan kiri */
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+  background: #fff;
+}
+
+ .gap-coba{
+  display: flex;
+  gap: 10px;
+}
+
+/* Menu */
+.nav-links {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tombol Masuk */
+.btn-masuk {
+  background-color: #f57c00;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn-masuk:hover {
+  background-color: #EC7100;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dua kolom dengan lebar yang sama */
+  align-items: center; /* untuk meratakan vertikal */
+  gap: 150px; /* jarak antara kolom */
+  margin: 100px 150px; /* padding kiri kanan */
+}
+
+.hero-text h1 {
+  font-size: 65px;
+  margin-bottom: 40px;
+  line-height: 1.1; /* untuk mengurangi jarak antar baris */
+  /* font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px; */
+}
+
+.hero-text p {
+  font-size: 18px;
+  /* font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 0; */
+}
+
+.hero-text .abu {
+  color: #1F2F59;
+}
+
+.hero-text .orange {
+  color: #FF7A00;
+}
+
+.hero-section .hero-image img {
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-text p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  /* font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 0; */
+}
+
+/* Tombol Explore Desa */
+.hero-text .btn-explore {
+  display: inline-flex; /* agar ikon dan teks sejajar */
+  background-color: #f57c00; /* warna latar oranye */
+  color: white; /* warna teks putih */
+  gap: 15px; /* jarak antara ikon dan teks */
+  padding: 12px 24px; /* padding atas bawah 12px, kiri kanan 24px */
+  border-radius: 25px; /* membuat sudut membulat */
+  text-decoration: none; /* menghilangkan garis bawah pada tautan */
+  font-weight: 500; /* menebalkan teks */
+  transition: background 0.3s;
+}
+
+.hero-text .btn-explore:hover {
+  background-color: #EC7100;
+}

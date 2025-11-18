@@ -1,0 +1,312 @@
+/* ======================================= */
+/* ===HANDPHONE : 36rem BAGIAN HEADER=== */
+/* ======================================= */
+
+/* --- 1. MEDIA QUERY: Maksimal Lebar 36rem (576px) --- */
+@media (max-width: 36rem) { /* 36rem = 576px */
+
+    /* 1.1. NAVBAR */
+    .navbar {
+        /* Mengurangi padding horizontal dari 30px (dari breakpoint sebelumnya) menjadi 15px */
+        padding: 15px 15px; 
+        height: auto;
+    }
+    
+    /* Sembunyikan Nav Links untuk mengutamakan tombol Masuk/Logo */
+    .nav-links {
+        display: none;
+    }
+
+    /* 1.2. HERO SECTION */
+    .hero-section {
+        /* Memastikan layout tetap satu kolom (jika belum diubah di breakpoint yang lebih besar) */
+        grid-template-columns: 1fr; 
+        /* Mengurangi margin horizontal dari 30px menjadi 15px */
+        margin: 40px 15px; 
+        gap: 30px; 
+        text-align: center; 
+    }
+
+    .hero-text h1 {
+        /* Mengurangi ukuran font agar muat di layar kecil */
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    
+    .hero-text p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    /* Ratakan tombol explore ke tengah */
+    .hero-text .btn-explore {
+        margin: 0 auto; 
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+
+
+/* ======================================= */
+/* ===HANDPHONE : 36rem BAGIAN MAIN=== */
+/* ======================================= */
+
+/* --- 1. MEDIA QUERY: Maksimal Lebar 36rem (576px) --- */
+@media (max-width: 36rem) { /* 36rem = 576px */
+
+    /* 1.1. GLOBAL MARGIN ADJUSTMENT (Mengurangi dari 30px menjadi 15px) */
+    .apd, 
+    .news, 
+    .information, 
+    .potensi, 
+    .layanan-text, 
+    .lapor-top,
+    .btn-lapor-online,
+    .container-peta {
+        margin-left: 15px;
+        margin-right: 15px;
+        /* Menyesuaikan margin-top antar section */
+        margin-top: 60px; 
+    }
+    
+    .berita-section, 
+    .card-information-section, 
+    .ini-grid-dilayanan {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    /* 1.2. APD SECTION */
+    .apd-container {
+        padding: 20px;
+    }
+    .apd-container h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .apd-container p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    /* 1.3. NEWS & INFORMATION SECTIONS */
+    .news-text a,
+    .information-text a {
+        /* Pindahkan tautan 'Lihat Semua' ke bawah judul */
+        align-self: center;
+        margin-top: 15px;
+    }
+
+    /* 1.4. CARD NEWS SECTION */
+    .berita-section {
+        /* Sudah tumpukan, hanya mengurangi padding */
+        padding: 15px;
+    }
+    .kaakaa .deskripsi-warna-abuau {
+        font-size: 16px;
+    }
+    
+    /* 1.5. CARD INFORMASI SECTION */
+    .card-information-section {
+        padding: 15px;
+        column-gap: 30px;
+    }
+    .day {
+        font-size: 24px;
+    }
+    .month {
+        font-size: 18px;
+    }
+
+    /* 1.6. POTENSI SECTION */
+    /* Navigasi potensi */
+   @media (max-width: 36rem) {
+    /* ------------------------------------- SECTION POTENSI ------------------------------------- */
+
+    /* Menghilangkan margin horizontal yang besar agar konten tidak terpotong */
+    .potensi {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 80px; /* Kurangi margin atas */
+    }
+
+    /* Mengubah navigasi filter dari baris menjadi bungkus (wrap) atau kolom */
+    .navbar-di-potensi {
+        flex-wrap: wrap; /* Biarkan item turun ke baris baru jika tidak muat */
+        gap: 10px; /* Kurangi jarak antar item */
+        justify-content: center; /* Rata tengah item filter */
+    }
+
+    /* ------------------------------------- BUTTON GROUP ------------------------------------- */
+
+    .btn-group-wrapper {
+        flex-direction: column; /* Ubah tata letak utama dari baris ke kolom */
+        gap: 20px; /* Jarak antar kelompok tombol dan link "Lihat Semua" */
+    }
+
+    /* Menghilangkan margin aneh (52rem) dan merata tengahkan */
+    .main-buttons {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center; /* Memastikan tombol di dalamnya rata tengah */
+        gap: 10px; /* Kurangi jarak antar tombol oranye */
+    }
+    
+    /* Mengubah tombol oranye menjadi full width jika masih terlalu sempit */
+    .main-buttons {
+        flex-direction: column; /* Tombol "Tambah Potensi" dan "Lihat Peta" menjadi kolom */
+        width: 100%;
+        max-width: 300px; /* Batasi lebar agar tidak terlalu besar di ponsel */
+    }
+    
+    .btn-tambah-potensi,
+    .btn-lihat-peta {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Rata tengahkan link "Lihat Semua" */
+    .lihat-semua-link {
+        align-self: center; /* Rata tengah item Flexbox (link) di sumbu silang */
+    }
+
+    /* ------------------------------------- CARD GRID ------------------------------------- */
+
+    .potensi-section-grid {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .container-potensi {
+        /* Kunci utama: Mengubah grid menjadi 1 kolom penuh */
+        grid-template-columns: 1fr; 
+        gap: 20px; /* Kurangi jarak */
+        width: 100%;
+    }
+
+    .card-potensi {
+        max-width: 100%; /* Memastikan card mengambil lebar penuh container */
+        width: 100%;
+    }
+
+    /* Penyesuaian konten card */
+    .iniwraper {
+        /* Pertahankan space-between, tetapi pastikan spasi cukup */
+        justify-content: space-between;
+    }
+}
+    
+    /* 1.7. LAYANAN SECTION (Grid) */
+    .ini-grid-dilayanan {
+        /* Sudah diubah menjadi tumpukan (kolom) di breakpoint sebelumnya */
+        flex-direction: column; 
+        gap: 15px;
+    }
+    .card-kayanan {
+        width: 100%; /* Lebar penuh */
+        height: auto;
+    }
+
+    /* 1.8. LAPOR ONLINE (Timeline & Card) */
+    /* Sembunyikan Timeline sepenuhnya jika belum */
+    .garis-waktu, .garis-waktu-dua, .garis-waktu-tiga {
+        display: none; 
+    }
+    .card-section, .card-section-dua, .card-section-tiga {
+        /* Card mengisi lebar penuh */
+        width: 100%; 
+        flex-direction: column;
+        height: auto;
+    }
+    .cobagambar, .cobagambar-dua, .cobagambar-tiga {
+        /* Gambar menyesuaikan lebar penuh dengan margin */
+        width: 90%;
+        margin: 15px auto 0;
+    }
+    .deskripsi-lapor-online, .deskripsi-lapor-online-dua, .deskripsi-lapor-online-tiga {
+        padding: 15px;
+    }
+    .Jalan-Rusak-warna-abuau, .Jalan-Rusak-warna-abuau-dua, .Jalan-Rusak-warna-abuau-tiga {
+        font-size: 18px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .paragraf-sedikit, .paragraf-sedikit-dua, .paragraf-sedikit-tiga {
+        font-size: 15px;
+    }
+    .btn-lapor-online {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* 1.9. PETA SECTION */
+    .container-peta {
+        grid-template-columns: 1fr; 
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .ini-apayah, .mau-ubahpeta {
+        height: 250px; /* Kurangi tinggi peta */
+    }
+    .peta-grid {
+        padding: 20px 15px; 
+    }
+    .pata-article-mid {
+        margin-top: 10px;
+    }
+    .cta-selengkapnya-dipeta {
+        margin-top: 20px;
+    }
+}
+
+/* ======================================= */
+/* ===HANDPHONE : 36rem BAGIAN FOOTER=== */
+/* ======================================= */
+/* --- 1. MEDIA QUERY: Maksimal Lebar 36rem (576px) --- */
+@media (max-width: 36rem) { /* 36rem = 576px */
+    
+    /* 1.1. Container Footer Utama */
+    .grid-container-footer {
+        /* Mengurangi padding horizontal menjadi minimum */
+        padding-left: 15px;
+        padding-right: 15px;
+        /* Ganti tinggi statis agar konten bisa menyesuaikan */
+        height: auto; 
+        padding-top: 1rem; 
+        padding-bottom: 1rem;
+    }
+
+    /* 1.2. Navbar Footer */
+    .navbar-footer {
+        /* Mengubah ke tumpukan vertikal */
+        flex-direction: column;
+        align-items: center; /* Pusatkan item */
+        height: auto; 
+        margin-top: 1rem;
+    }
+    
+    /* 1.3. Menu Navigasi (Nav-Links) */
+    .nav-links-footer {
+        /* Tumpuk menu secara vertikal dan ratakan ke tengah */
+        flex-direction: column; 
+        gap: 10px; 
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 14px;
+    }
+    
+    /* 1.4. Garis */
+    .garis-difooter {
+        margin-top: 1rem;
+    }
+
+    /* 1.5. Ikon Media Sosial */
+    .icons-footer {
+        /* Pindahkan ikon ke tengah */
+        justify-content: center; 
+        margin-top: 1.5rem;
+        gap: 12px;
+    }
+}
