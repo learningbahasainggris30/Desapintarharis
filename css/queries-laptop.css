@@ -1,0 +1,240 @@
+/* ==================================================================== */
+/* === MEDIA QUERY untuk ukuran layar 80rem (sekitar 1280px) === */
+/* ==================================================================== */
+@media (max-width: 80rem) {
+    /* == NAVBAR == */
+    .navbar {
+        /* Mengurangi padding horizontal dari 150px ke 80px */
+        padding: 25px 80px; 
+    }
+
+    /* Menu */
+    .nav-links {
+        /* Mengurangi jarak antar menu agar lebih ringkas */
+        gap: 15px; 
+    }
+    
+    /* ---------- HERO SECTION ---------- */
+    .hero-section {
+        /* Mengurangi jarak antar kolom dari 150px ke 80px */
+        gap: 80px; 
+        /* Mengurangi margin horizontal dari 150px ke 80px */
+        margin: 100px 80px; 
+    }
+
+    .hero-text h1 {
+        /* Sedikit mengurangi ukuran font H1 agar proporsional */
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+
+    .hero-text p {
+        /* Sedikit mengurangi margin bawah paragraf */
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* ==================================================================== */
+/* === MEDIA QUERY untuk ukuran layar 80rem (sekitar 1280px) === */
+/* ==================================================================== */
+@media (max-width: 80rem) {
+    /* --- UTILITY & BASE MARGIN/PADDING REDUCTION --- */
+    .apd,
+    .news,
+    .information,
+    .potensi,
+    .layanan-text,
+    .ini-grid-dilayanan,
+    .lapor-top,
+    .btn-lapor-online,
+    .potensi-section-grid {
+        /* Mengurangi margin horizontal dari 150px ke 80px */
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .berita-section,
+    .card-information-section,
+    .container-laporonline,
+    .container-laporonline-dua,
+    .container-laporonline-tiga {
+        /* Mengurangi margin horizontal dari 150px/26px ke 80px */
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    /* Mengurangi margin vertikal antar bagian */
+    .news,
+    .information,
+    .layanan-text,
+    .lapor-top,
+    .potensi {
+        margin-top: 100px; /* Jarak antar section sedikit dikurangi */
+    }
+
+    /* --- APD SECTION --- */
+    .apd {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* --- NEWS SECTION --- */
+    .berita-section {
+        /* Menjaga layout flex tetapi menyesuaikan ukuran */
+        margin: 20px 80px;
+    }
+
+    .bdabbad .image-foto-desa {
+        width: 250px; /* Sedikit perkecil gambar berita */
+    }
+
+    /* --- INFORMASI SECTION --- */
+    .card-information-section {
+        column-gap: 30px; /* Mengurangi jarak antar elemen kalender */
+        margin: 20px 80px;
+        padding: 20px;
+    }
+
+    .event {
+        padding-right: 40px; /* Mengurangi padding kanan pada detail event */
+    }
+
+    .btn-lihatdetail {
+        margin-left: 30px; /* Mengurangi margin kiri tombol */
+    }
+
+    /* --- POTENSI SECTION --- */
+    .btn-group-wrapper {
+        width: 100%;
+    }
+    
+    .main-buttons {
+        /* Menyesuaikan margin-left karena lebar layar berubah */
+        margin-left: 20rem; 
+        gap: 10px;
+    }
+    
+    .container-potensi {
+        /* Tetap 3 kolom, tetapi card width tidak perlu sebesar 22rem */
+        gap: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .card-potensi {
+        max-width: none;
+    }
+
+    /* --- LAYANAN SECTION --- */
+    .ini-grid-dilayanan {
+        gap: 20px; /* Mengurangi jarak antar kartu layanan */
+        margin-top: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .card-kayanan {
+        width: 200px; /* Sedikit perkecil lebar kartu layanan */
+        height: 220px;
+    }
+
+    /* --- LAPOR ONLINE SECTION --- */
+    .btn-lapor-online {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .container-laporonline,
+    .container-laporonline-dua,
+    .container-laporonline-tiga {
+        margin-left: 80px;
+        margin-right: 80px;
+        height: 220px; /* Sedikit perkecil tinggi container */
+    }
+    
+    .card-section,
+    .card-section-dua,
+    .card-section-tiga {
+        width: 100%; /* Biarkan card mengisi penuh */
+        height: 220px;
+    }
+    
+    .cobagambar,
+    .cobagambar-dua,
+    .cobagambar-tiga {
+        width: 250px; /* Sedikit perkecil gambar di dalam card */
+        height: 180px;
+    }
+    
+    /* --- PETA SECTION --- */
+    .container-peta {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        /* Biarkan grid template columns 1fr 1fr */
+    }
+    
+    .ini-apayah {
+        width: 100%; 
+        height: 500px; /* Kurangi tinggi iframe peta */
+    }
+    
+    .mau-ubahpeta {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .peta-grid {
+        /* Mengurangi padding internal yang besar */
+        padding: 50px 60px;
+        height: auto; 
+    }
+    
+    .pata-article-mid {
+        margin-left: 10px; /* Sedikit kurangi margin kiri */
+    }
+    
+    .cta-selengkapnya-dipeta {
+        margin-left: 10px;
+    }
+}
+
+
+
+/* ==================================================================== */
+/* === MEDIA QUERY untuk ukuran layar 80rem (sekitar 1280px) === */
+/* ==================================================================== */
+@media (max-width: 80rem) {
+    /* == NAVBAR FOOTER == */
+    .grid-container-footer {
+        /* Mengurangi padding horizontal dari 150px ke 80px */
+        padding-left: 80px;
+        padding-right: 80px;
+        height: auto; 
+    }
+
+    /* Menu */
+    .nav-links-footer {
+        /* Mengurangi jarak antar link footer (dari 6rem ke 3rem) */
+        gap: 3rem; 
+    }
+
+    .icons-footer {
+        /* Mengurangi jarak vertikal ikon footer */
+        margin-top: 1.5rem; 
+    }
+    
+    .navbar-footer {
+        /* Mengurangi jarak vertikal elemen footer */
+        margin-top: 1.5rem;
+        height: auto;
+    }
+
+    .garis-difooter {
+        /* Mengurangi jarak vertikal garis */
+        margin-top: 1.5rem;
+    }
+}

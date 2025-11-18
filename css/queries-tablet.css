@@ -1,0 +1,376 @@
+/* ==================================================================== */
+/* === MEDIA QUERY untuk ukuran layar 54.25rem (sekitar 868px) === */
+/* ==================================================================== */
+@media (max-width: 54.25rem) {
+    /* == NAVBAR == */
+    .navbar {
+        /* Mengurangi padding horizontal agar elemen tidak terlalu mepet tepi */
+        padding: 20px 40px;
+        height: auto; /* Biarkan tinggi menyesuaikan konten */
+    }
+
+    /* Menyembunyikan Nav Links dan Tombol Masuk pada ukuran ini */
+    /*, ini akan diganti dengan menu hamburger */
+    .nav-links,
+    .btn-masuk {
+        display: none;
+    }
+
+    /* Agar logo tetap ada di tengah */
+    .navbar {
+        justify-content: start; /* Geser semua elemen ke kiri */
+    }
+
+    /* Jika navbar hanya berisi logo dan tombol Masuk/hamburger, 
+       justifikasi ulang mungkin diperlukan, tapi untuk kasus ini, kita fokus 
+       pada perubahan layout yang diminta. */
+
+    /* ---------- HERO SECTION ---------- */
+    .hero-section {
+        /* Mengubah dari 2 kolom menjadi 1 kolom */
+        grid-template-columns: 1fr;
+        /* Mengurangi jarak antara kolom menjadi jarak antar baris */
+        gap: 50px;
+        /* Mengurangi margin horizontal */
+        margin: 50px 40px;
+    }
+
+    .hero-text h1 {
+        /* Mengurangi ukuran font untuk H1 agar tidak terlalu besar */
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text p {
+        /* Sedikit mengurangi ukuran font paragraf */
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    /* Mengubah urutan agar gambar muncul di atas teks, jika diperlukan.
+       Saat ini, teks sudah di atas gambar karena HTML-nya. 
+       Jika ingin gambar di atas: order: -1; pada .hero-image */
+}
+
+
+/* ==================================================================== */
+/* === MEDIA QUERY untuk ukuran layar 54.25rem (sekitar 868px) === */
+/* ==================================================================== */
+@media (max-width: 54.25rem) {
+    /* --- UTILITY & BASE MARGIN/PADDING REDUCTION --- */
+    .apd,
+    .news,
+    .information,
+    .potensi,
+    .layanan-text,
+    .ini-grid-dilayanan,
+    .lapor-top,
+    .btn-lapor-online,
+    .container-laporonline,
+    .container-laporonline-dua,
+    .container-laporonline-tiga,
+    .potensi-section-grid,
+    .berita-section,
+    .card-information-section {
+        /* Mengurangi margin horizontal dari 150px ke 40px */
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* Mengurangi margin vertikal antar bagian */
+    .news,
+    .information,
+    .layanan-text,
+    .lapor-top,
+    .potensi {
+        margin-top: 80px; /* Jarak antar section yang lebih ringkas */
+    }
+
+    /* --- APD SECTION --- */
+    .apd-container {
+        padding: 20px; /* Mengurangi padding internal */
+    }
+
+    .apd-container h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .apd-container p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    /* --- NEWS SECTION --- */
+    /* Mengubah Card Berita menjadi satu kolom vertikal atau menumpuk */
+    .berita-section {
+        flex-direction: column; /* Teks di bawah gambar */
+        align-items: flex-start; /* Ratakan konten ke kiri */
+        margin: 20px 40px;
+        padding: 0;
+    }
+
+    .bdabbad .image-foto-desa {
+        width: 100%; /* Gambar mengambil lebar penuh */
+        height: auto;
+        border-radius: 15px 15px 0px 0px; /* Sudut membulat di atas saja */
+    }
+
+    .kaakaa {
+        padding: 20px 0; /* Memberi padding di dalam teks card */
+        width: 100%;
+    }
+
+    .kaakaa .tanggal-berita-oren,
+    .kaakaa .deskripsi-warna-abuau,
+    .kaakaa .pantai,
+    .kaakaa .berita-link {
+        /* Menghilangkan margin-left 22px karena sudah ditangani oleh padding di .kaakaa */
+        margin-left: 20px;
+    }
+    
+    .kaakaa .pantai {
+        /* Memastikan deskripsi tidak meluber */
+        padding-right: 20px; 
+    }
+
+    /* --- INFORMASI SECTION --- */
+    .card-information-section {
+        flex-direction: column; /* Menumpuk elemen secara vertikal */
+        align-items: flex-start;
+        padding: 20px;
+        row-gap: 20px; /* Jarak antar elemen yang ditumpuk */
+    }
+
+    .event {
+        padding-right: 0; /* Hapus padding yang besar */
+    }
+
+    .btn-lihatdetail {
+        margin-left: 0; /* Hapus margin yang mendorong tombol ke kanan */
+        width: 100%; /* Buat tombol mengambil lebar penuh */
+        height: auto;
+        padding: 12px 0;
+    }
+    
+    .month {
+        font-size: 18px; /* Sedikit perkecil font bulan */
+    }
+    
+    .ddsadddsffo {
+        gap: 8px; /* Kurangi jarak antar elemen judul/paragraf */
+    }
+
+    /* --- POTENSI SECTION --- */
+    .navbar-di-potensi {
+        /* Menggunakan Flexbox wrap agar filter bisa ke baris baru */
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px; /* Kurangi jarak antar tombol filter */
+    }
+    
+    .btn-group-wrapper {
+        /* Mengubah tata letak tombol menjadi menumpuk atau di bawah header */
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .main-buttons {
+        margin-left: 0; /* Hapus auto-margin yang membuat tombol ke tengah layar */
+        /* Group tombol akan di tengah karena .btn-group-wrapper diubah menjadi column dan justify: space-between sudah tidak efektif */
+        justify-content: center;
+        width: 100%;
+    }
+
+    .potensi-section-grid {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .container-potensi {
+        /* Mengurangi grid menjadi 2 kolom */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .card-potensi {
+        max-width: none; /* Biarkan kartu menyesuaikan lebar kolom grid */
+    }
+
+    /* --- LAYANAN SECTION --- */
+    .ini-grid-dilayanan {
+        flex-wrap: wrap; /* Izinkan kartu layanan melipat ke baris baru */
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    
+    .card-kayanan {
+        width: calc(50% - 10px); /* 2 kolom dengan sedikit ruang di antara */
+        height: auto;
+        padding: 15px;
+    }
+
+    /* --- LAPOR ONLINE SECTION --- */
+    .garis-waktu,
+    .garis-waktu-dua,
+    .garis-waktu-tiga {
+        /* Menyembunyikan tampilan timeline vertikal */
+        display: none;
+    }
+
+    .container-laporonline,
+    .container-laporonline-dua,
+    .container-laporonline-tiga {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: auto; /* Biarkan tinggi menyesuaikan konten */
+        margin-top: 15px;
+    }
+
+    .card-section,
+    .card-section-dua,
+    .card-section-tiga {
+        width: 100%;
+        height: auto;
+        flex-direction: column; /* Tumpuk gambar di atas deskripsi */
+    }
+
+    .cobagambar,
+    .cobagambar-dua,
+    .cobagambar-tiga {
+        width: calc(100% - 48px); /* Gambar mengambil lebar penuh container card */
+        height: auto;
+        margin: 24px; /* Margin konsisten di semua sisi gambar */
+        margin-bottom: 0;
+    }
+
+    .deskripsi-lapor-online,
+    .deskripsi-lapor-online-dua,
+    .deskripsi-lapor-online-tiga {
+        padding: 24px;
+        padding-top: 15px; /* Jarak antara gambar dan teks */
+    }
+    
+    .jamdicardlaporonline,
+    .jamdicardlaporonline-dua,
+    .jamdicardlaporonline-tiga {
+        /* Menyesuaikan posisi jam agar konsisten */
+        display: block;
+        padding-top: 10px;
+    }
+    
+    .paragraf-sedikit,
+    .paragraf-sedikit-dua,
+    .paragraf-sedikit-tiga {
+        /* Hapus baris patah <br> */
+        display: block; 
+    }
+
+    /* --- PETA SECTION --- */
+    .container-peta {
+        grid-template-columns: 1fr; /* Mengubah dari 2 kolom menjadi 1 kolom */
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .peta-grid {
+        height: auto;
+        padding: 30px; /* Kurangi padding internal */
+    }
+    
+    .ini-apayah {
+        width: 100%; 
+        height: 400px; /* Kurangi tinggi iframe peta */
+        margin-top: 20px;
+        order: 1; /* Pindahkan peta di bawah deskripsi/navigasi */
+    }
+    
+    .mau-ubahpeta {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .peta-grid {
+        order: 2; /* Pindahkan deskripsi/navigasi di atas peta */
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .hero-peta {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .pata-article-mid {
+        margin-left: 0; /* Hapus margin yang berlebihan */
+    }
+    
+    .cta-selengkapnya-dipeta {
+        margin-left: 0;
+    }
+}
+
+
+/* ==================================================================== */
+/* === MEDIA QUERY untuk ukuran layar 54.25rem (sekitar 868px) === */
+/* ==================================================================== */
+@media (max-width: 54.25rem) {
+    /* == NAVBAR FOOTER == */
+    .grid-container-footer {
+        /* Mengurangi padding horizontal dari 150px ke 40px */
+        padding-left: 40px;
+        padding-right: 40px;
+        /* Biarkan tinggi menyesuaikan konten */
+        height: auto; 
+        /* Pusatkan konten saat menjadi satu kolom */
+        align-items: center; 
+    }
+
+    .navbar-footer {
+        /* Mengubah tata letak navbar dari horizontal menjadi vertikal */
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        margin-top: 1.5rem; /* Kurangi margin atas */
+        gap: 15px;
+    }
+
+    /* Mengubah menu link dari horizontal menjadi vertikal */
+    .nav-links-footer {
+        flex-direction: column;
+        gap: 15px; /* Kurangi jarak antar link */
+        padding: 0;
+        /* Hapus logo/elemen lain yang mungkin ada di sebelah kiri */
+        margin-bottom: 15px; 
+    }
+    
+    .nav-links-footer a {
+        font-size: 14px; /* Sedikit perkecil ukuran font */
+        text-align: center;
+    }
+
+    .gap-coba-footer {
+        /* Pastikan logo/elemen branding tetap terlihat (jika ada) */
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+
+    .garis-difooter {
+        /* Garis tetap penuh lebar */
+        margin-top: 1.5rem;
+    }
+
+    .icons-footer {
+        /* Posisikan ikon sosial media di tengah */
+        justify-content: center;
+        gap: 10px; /* Kurangi jarak antar ikon */
+        margin-top: 1.5rem;
+        margin-bottom: 20px; /* Tambahkan margin bawah agar tidak mepet */
+    }
+}

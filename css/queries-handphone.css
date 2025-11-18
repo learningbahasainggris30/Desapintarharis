@@ -1,11 +1,8 @@
-/* ======================================= */
-/* ===HANDPHONE : 36rem BAGIAN HEADER=== */
-/* ======================================= */
-
-/* --- 1. MEDIA QUERY: Maksimal Lebar 36rem (576px) --- */
+/* ==================================================================== */
+/* === MEDIA QUERY untuk ukuran layar 36rem (576px)=== */
+/* ==================================================================== */
 @media (max-width: 36rem) { /* 36rem = 576px */
-
-    /* 1.1. NAVBAR */
+/* == NAVBAR == */
     .navbar {
         /* Mengurangi padding horizontal dari 30px (dari breakpoint sebelumnya) menjadi 15px */
         padding: 15px 15px; 
