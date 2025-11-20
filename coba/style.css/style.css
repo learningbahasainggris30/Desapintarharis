@@ -1,4 +1,16 @@
+.hover-dikit {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center; /* --------Main Axis-------*/
+  align-items: center;  /* --------Cross Axis-------*/
+  padding: 0.5rem 0.75rem;
+}
 
+.hover-dikit:hover {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+ }
 
 .ini-buatgridnya {
   display: grid;

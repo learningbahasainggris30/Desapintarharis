@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/queries-laptop.css" />
     <link rel="stylesheet" href="css/queries-tablet.css" />
     <link rel="stylesheet" href="css/queries-handphone.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,6 +37,13 @@
         <figure class="logo">
           <img src="img/Layer.png" alt="desa pintar logo" />
         </figure>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger-btn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
 
         <ul class="nav-links">
           <li><a href="#">Beranda</a></li>
@@ -291,10 +299,10 @@
         <menu class="navbar-di-potensi">
           <a href="#" class="btn-umkm">UMKM</a>
           <a href="#" class="btn-semua">Semua</a>
-          <a href="#" class="a">Bumdes</a>
-          <a href="#" class="b">Wisata</a>
-          <a href="#" class="c">Produk/Jasa</a>
-          <a href="#" class="d">Properti</a>
+          <a href="#" class="hover-dikit">Bumdes</a>
+          <a href="#" class="hover-dikit">Wisata</a>
+          <a href="#" class="hover-dikit">Produk/Jasa</a>
+          <a href="#" class="hover-dikit">Properti</a>
         </menu>
 
         <div class="btn-group-wrapper">
@@ -303,10 +311,10 @@
             <a href="#" class="btn-lihat-peta">Lihat Peta</a>
           </div>
           <a href="#" class="lihat-semua-link">
-            LihatSemua <span class="arrow"> <img src="img/panahbaru.png" alt=""></span>
+            LihatSemua
+            <span class="arrow"> <img src="img/panahbaru.png" alt="" /></span>
           </a>
         </div>
-
       </section>
       <!-- ---------------------ini card di grid--------------------- -->
       <section class="potensi-section-grid">
@@ -744,5 +752,13 @@
         <li><i class="fa-brands fa-youtube fa-2x"></i></li>
       </ul>
     </footer>
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--  My JavaScript-->
+    <script src="js/script.js"></script>
   </body>
 </html>

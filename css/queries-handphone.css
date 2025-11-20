@@ -1,7 +1,7 @@
 /* ==================================================================== */
 /* === MEDIA QUERY untuk ukuran layar 36rem (576px)=== */
 /* ==================================================================== */
-@media (max-width: 36rem) { /* 36rem = 576px */
+@media screen and (max-width: 36rem) { /* 36rem = 576px */
 /* == NAVBAR == */
     .navbar {
         /* Mengurangi padding horizontal dari 30px (dari breakpoint sebelumnya) menjadi 15px */
@@ -50,7 +50,7 @@
 /* ======================================= */
 
 /* --- 1. MEDIA QUERY: Maksimal Lebar 36rem (576px) --- */
-@media (max-width: 36rem) { /* 36rem = 576px */
+@media screen and (max-width: 36rem) { /* 36rem = 576px */
 
     /* 1.1. GLOBAL MARGIN ADJUSTMENT (Mengurangi dari 30px menjadi 15px) */
     .apd, 
@@ -115,10 +115,6 @@
     .month {
         font-size: 18px;
     }
-
-    /* 1.6. POTENSI SECTION */
-    /* Navigasi potensi */
-   @media (max-width: 36rem) {
     /* ------------------------------------- SECTION POTENSI ------------------------------------- */
 
     /* Menghilangkan margin horizontal yang besar agar konten tidak terpotong */
@@ -192,7 +188,7 @@
         /* Pertahankan space-between, tetapi pastikan spasi cukup */
         justify-content: space-between;
     }
-}
+
     
     /* 1.7. LAYANAN SECTION (Grid) */
     .ini-grid-dilayanan {
@@ -262,7 +258,7 @@
 /* ===HANDPHONE : 36rem BAGIAN FOOTER=== */
 /* ======================================= */
 /* --- 1. MEDIA QUERY: Maksimal Lebar 36rem (576px) --- */
-@media (max-width: 36rem) { /* 36rem = 576px */
+@media screen and (max-width: 36rem) { /* 36rem = 576px */
     
     /* 1.1. Container Footer Utama */
     .grid-container-footer {

@@ -15,6 +15,31 @@
   gap: 10px;
 }
 
+/* --- HAMBURGER MENU DEFAULT STYLES (Di luar Media Query) --- */
+
+.hamburger-btn {
+    /* Menyembunyikan tombol hamburger di desktop */
+    display: none; 
+    cursor: pointer;
+    padding: 5px;
+    z-index: 1000; 
+}
+
+/* Styling Bar Hamburger */
+.hamburger-btn .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #333; 
+    transition: all 0.3s ease;
+}
+
+/* Sembunyikan Checkbox yang mengontrol menu */
+.menu-toggle {
+    display: none; 
+}
+
 /* Menu */
 .nav-links {
   display: flex;
@@ -23,6 +48,7 @@
   align-items: center;
   list-style: none;
   gap: 25px;
+
 }
 
 .nav-links a {
@@ -30,6 +56,14 @@
   color: black;
   justify-content: center;
   align-items: center;
+  padding: 0.5rem 0.75rem;
+
+}
+
+.nav-links a:hover {
+  background-color: #f0f0f0;
+  border-radius: 2rem;
+  transition: background 0.3s;
 }
 
 /* Tombol Masuk */

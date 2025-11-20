@@ -1,12 +1,16 @@
 /* ==================================================================== */
 /* === MEDIA QUERY untuk ukuran layar 54.25rem (sekitar 868px) === */
 /* ==================================================================== */
-@media (max-width: 54.25rem) {
+@media screen and (max-width: 54.25rem) {
     /* == NAVBAR == */
     .navbar {
         /* Mengurangi padding horizontal agar elemen tidak terlalu mepet tepi */
         padding: 20px 40px;
         height: auto; /* Biarkan tinggi menyesuaikan konten */
+
+        /* Rata Kiri (Logo) dan Kanan (Hamburger) */
+        justify-content: space-between; 
+        align-items: center;
     }
 
     /* Menyembunyikan Nav Links dan Tombol Masuk pada ukuran ini */
@@ -16,14 +20,48 @@
         display: none;
     }
 
-    /* Agar logo tetap ada di tengah */
-    .navbar {
-        justify-content: start; /* Geser semua elemen ke kiri */
+    /* 2. MENAMPILKAN TOMBOL HAMBURGER */
+    .hamburger-btn {
+        display: block; /* Menggantikan 'display: none' default */
+    }
+    
+    /* 3. SETTING TAMPILAN MENU MOBILE (Saat Dibuka) */
+    .nav-links {
+        /* Posisikan menu di bawah navbar */
+        position: absolute;
+        top: 68px; /* Sesuaikan dengan tinggi navbar default Anda */
+        left: 0;
+        width: 100%;
+        background-color: white; 
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        flex-direction: column; /* Ubah item menu menjadi vertikal */
+        text-align: center;
+        /* Tambahkan padding vertikal agar tidak terlalu mepet */
+        padding: 20px 0;
     }
 
-    /* Jika navbar hanya berisi logo dan tombol Masuk/hamburger, 
-       justifikasi ulang mungkin diperlukan, tapi untuk kasus ini, kita fokus 
-       pada perubahan layout yang diminta. */
+    /* 4. LOGIKA: Menampilkan Menu saat Hamburger Diklik */
+    .menu-toggle:checked ~ .nav-links {
+        display: flex; /* Tampilkan menu mobile */
+    }
+    
+    /* Styling List Item di Mobile */
+    .nav-links li {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .nav-links li a {
+        display: block; /* Membuat link mengambil lebar penuh */
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    /* Agar logo tetap ada di kiri dan hamburger di kanan */
+    .navbar {
+        justify-content: space-between; /* biar logo di kiri hamburger di kanan */
+    }
+
+    
 
     /* ---------- HERO SECTION ---------- */
     .hero-section {
@@ -56,7 +94,7 @@
 /* ==================================================================== */
 /* === MEDIA QUERY untuk ukuran layar 54.25rem (sekitar 868px) === */
 /* ==================================================================== */
-@media (max-width: 54.25rem) {
+@media screen and (max-width: 54.25rem) {
     /* --- UTILITY & BASE MARGIN/PADDING REDUCTION --- */
     .apd,
     .news,
@@ -320,7 +358,7 @@
 /* ==================================================================== */
 /* === MEDIA QUERY untuk ukuran layar 54.25rem (sekitar 868px) === */
 /* ==================================================================== */
-@media (max-width: 54.25rem) {
+@media screen and (max-width: 54.25rem) {
     /* == NAVBAR FOOTER == */
     .grid-container-footer {
         /* Mengurangi padding horizontal dari 150px ke 40px */
