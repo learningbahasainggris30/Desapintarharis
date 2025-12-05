@@ -8,9 +8,11 @@
   padding: 25px 150px; /* 20 atas bawah 150 kanan kiri */
   box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
   background: #fff;
+  position: fixed;
+  top: 0;
 }
 
- .gap-coba{
+ .gap-coba {
   display: flex;
   gap: 10px;
 }
@@ -19,7 +21,7 @@
 
 .hamburger-btn {
     /* Menyembunyikan tombol hamburger di desktop */
-    display: none; 
+    display: none; /* Ubah ke 'block' atau 'flex' di dalam media query untuk menampilkannya di tablet */
     cursor: pointer;
     padding: 5px;
     z-index: 1000; 
@@ -37,7 +39,7 @@
 
 /* Sembunyikan Checkbox yang mengontrol menu */
 .menu-toggle {
-    display: none; 
+    display: none;
 }
 
 /* Menu */
@@ -48,7 +50,6 @@
   align-items: center;
   list-style: none;
   gap: 25px;
-
 }
 
 .nav-links a {
@@ -57,11 +58,11 @@
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0.75rem;
-
 }
 
 .nav-links a:hover {
-  background-color: #f0f0f0;
+  /* background-color: rgba(255, 255, 255, 0.330);
+  backdrop-filter: blur(10px); */
   border-radius: 2rem;
   transition: background 0.3s;
 }

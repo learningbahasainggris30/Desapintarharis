@@ -32,7 +32,8 @@
         top: 68px; /* Sesuaikan dengan tinggi navbar default Anda */
         left: 0;
         width: 100%;
-        background-color: white; 
+        background-color: rgba(255, 255, 255, 0.40);
+        backdrop-filter: blur(10px);
         box-shadow: 0 5px 10px rgba(0,0,0,0.1);
         flex-direction: column; /* Ubah item menu menjadi vertikal */
         text-align: center;
