@@ -282,9 +282,9 @@
     .cobagambar,
     .cobagambar-dua,
     .cobagambar-tiga {
-        width: calc(100% - 48px); /* Gambar mengambil lebar penuh container card */
+        width: 100%; /* Gambar mengambil lebar penuh container card */
         height: auto;
-        margin: 24px; /* Margin konsisten di semua sisi gambar */
+        margin: 0px; /* Margin konsisten di semua sisi gambar */
         margin-bottom: 0;
     }
 

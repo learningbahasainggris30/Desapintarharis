@@ -162,6 +162,13 @@
         width: 100%; /* Biarkan card mengisi penuh */
         height: 220px;
     }
+
+    .bencanaalam-btn-ditanggapi,
+    .bencanaalam-btn-ditanggapi-dua,
+    .bencanaalam-btn-ditanggapi-tiga {
+        margin-top: 1rem; /* Sedikit kurangi margin atas tombol */
+        margin-bottom: 1rem;
+    }
     
     .cobagambar,
     .cobagambar-dua,
