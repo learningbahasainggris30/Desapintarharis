@@ -5,7 +5,7 @@
     /* == NAVBAR == */
     .navbar {
         /* Mengurangi padding horizontal agar elemen tidak terlalu mepet tepi */
-        padding: 20px 40px;
+        padding: 15px 15px; 
         height: auto; /* Biarkan tinggi menyesuaikan konten */
 
         /* Rata Kiri (Logo) dan Kanan (Hamburger) */
@@ -291,8 +291,10 @@
     .deskripsi-lapor-online,
     .deskripsi-lapor-online-dua,
     .deskripsi-lapor-online-tiga {
-        padding: 24px;
-        padding-top: 15px; /* Jarak antara gambar dan teks */
+        padding: 0px;
+        margin-left: 0rem;
+        /* padding: 24px;
+        padding-top: 15px;  */
     }
     
     .jamdicardlaporonline,

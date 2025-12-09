@@ -202,7 +202,7 @@
     }
 
     /* 1.8. LAPOR ONLINE (Timeline & Card) */
-    /* Sembunyikan Timeline sepenuhnya jika belum */
+    /* Sembunyikan Timeline sepenuhnya */
     .garis-waktu, .garis-waktu-dua, .garis-waktu-tiga {
         display: none; 
     }
@@ -214,11 +214,17 @@
     }
     .cobagambar, .cobagambar-dua, .cobagambar-tiga {
         /* Gambar menyesuaikan lebar penuh dengan margin */
-        width: 90%;
-        margin: 15px auto 0;
+        /* width: 90%; */
+        margin: 0rem;
+        width: 100%;
     }
     .deskripsi-lapor-online, .deskripsi-lapor-online-dua, .deskripsi-lapor-online-tiga {
-        padding: 15px;
+        padding: 0px;
+        margin-left: 0rem;
+    }
+    .bencanaalam-btn-ditanggapi-tiga, .bencanaalam-btn-ditanggapi-dua, .bencanaalam-btn-ditanggapi {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .Jalan-Rusak-warna-abuau, .Jalan-Rusak-warna-abuau-dua, .Jalan-Rusak-warna-abuau-tiga {
         font-size: 18px;
@@ -231,7 +237,7 @@
     .btn-lapor-online {
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 20px;
     }
 
     /* 1.9. PETA SECTION */

@@ -5,13 +5,13 @@
     /* == NAVBAR == */
     .navbar {
         /* Mengurangi padding horizontal dari 150px ke 80px */
-        padding: 25px 80px; 
+        padding:0px; 
     }
 
     /* Menu */
     .nav-links {
         /* Mengurangi jarak antar menu agar lebih ringkas */
-        gap: 15px; 
+        gap: 1px;
     }
     
     /* ---------- HERO SECTION ---------- */

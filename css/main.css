@@ -354,8 +354,8 @@
   display: flex; /* Mengaktifkan Flexbox untuk mengelompokkan tombol */
   gap: 16px; /* Jarak antar tombol */
   /* Untuk menempatkan .main-buttons di tengah, kita akan gunakan auto-margins */
-  margin-left: 52rem;
-  margin-right: auto;
+  margin-left: 28rem; /* ganti di sini*/
+  /* margin-right: auto; */
 }
 
 /* Gaya Dasar Tombol */
@@ -635,7 +635,7 @@
   width: 3.50px; 
   height: 212px;
   border-left: 3.50px dashed #5DC3B2;
-  margin-left: 71px;
+  margin-left: 41px; /* 71px */
   margin-top: 10px;
 }
 
@@ -688,7 +688,7 @@
   width: 3.50px; 
   height: 214px;
   border-left: 3.50px dashed #5DC3B2;
-  margin-left: 71px;
+  margin-left: 41px;
   margin-top: 10px;
 }
 
@@ -748,6 +748,7 @@
 .card-section {
   display: flex;
   border-radius: 20px;
+  padding: 16px;
   width: 1330px;
   height: 248px;
   /* background-color: yellow; */
@@ -756,18 +757,24 @@
 }
 
 .cobagambar {
+  display: block;
   width: 300px;
-  height: 200px;
-  margin-top: 24px;
-  margin-left: 24px;
+  height: 100%;
   border-radius: 20px;
+
+  /* display: block;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px; */
 }
 
 .deskripsi-lapor-online {
   display: flex;
   flex-direction: column;
-  padding-top: 24px;
-  padding-left: 24px;
+  padding: 0px;
+  margin-left: 1rem;
+  justify-content: center;
   width: 100%;
 }
 
@@ -777,7 +784,7 @@
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .tagarbencanaalam {
@@ -817,6 +824,7 @@
 .card-section-dua {
   display: flex;
   border-radius: 20px;
+  padding: 16px;
   /* margin-left: 10rem; */
   width: 1330px;
   height: 248px;
@@ -827,17 +835,19 @@
 
 .cobagambar-dua {
   width: 300px;
-  height: 200px;
-  margin-top: 24px;
-  margin-left: 24px;
+  display: block;
+  height: 100%;
+  /* margin-top: 24px;
+  margin-left: 24px; */
   border-radius: 20px;
 }
 
 .deskripsi-lapor-online-dua {
   display: flex;
   flex-direction: column;
-  padding-top: 24px;
-  padding-left: 24px;
+  padding: 0px;
+  margin-left: 1rem;
+  justify-content: center;
   width: 100%;
 }
 
@@ -847,7 +857,7 @@
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .tagarbencanaalam-dua {
@@ -887,6 +897,7 @@
 .card-section-tiga {
   display: flex;
   border-radius: 20px;
+  padding: 1rem;
   width: 1330px;
   height: 248px;
   /* background-color: yellow; */
@@ -896,17 +907,19 @@
 
 .cobagambar-tiga {
   width: 300px;
-  height: 200px;
-  margin-top: 24px;
-  margin-left: 24px;
+  display: block;
+  height: 100%;
+  /* margin-top: 24px;
+  margin-left: 24px; */
   border-radius: 20px;
 }
 
 .deskripsi-lapor-online-tiga {
   display: flex;
   flex-direction: column;
-  padding-top: 24px;
-  padding-left: 24px;
+  padding: 0px;
+  margin-left: 1rem;
+  justify-content: center;
   width: 100%;
 }
 
@@ -916,7 +929,7 @@
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .tagarbencanaalam-tiga {
