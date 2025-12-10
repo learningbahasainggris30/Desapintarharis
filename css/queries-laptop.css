@@ -5,13 +5,13 @@
     /* == NAVBAR == */
     .navbar {
         /* Mengurangi padding horizontal dari 150px ke 80px */
-        padding: 25px 80px; 
+        padding:0px; 
     }
 
     /* Menu */
     .nav-links {
         /* Mengurangi jarak antar menu agar lebih ringkas */
-        gap: 15px; 
+        gap: 1px;
     }
     
     /* ---------- HERO SECTION ---------- */
@@ -161,6 +161,13 @@
     .card-section-tiga {
         width: 100%; /* Biarkan card mengisi penuh */
         height: 220px;
+    }
+
+    .bencanaalam-btn-ditanggapi,
+    .bencanaalam-btn-ditanggapi-dua,
+    .bencanaalam-btn-ditanggapi-tiga {
+        margin-top: 1rem; /* Sedikit kurangi margin atas tombol */
+        margin-bottom: 1rem;
     }
     
     .cobagambar,

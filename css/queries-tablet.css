@@ -5,7 +5,7 @@
     /* == NAVBAR == */
     .navbar {
         /* Mengurangi padding horizontal agar elemen tidak terlalu mepet tepi */
-        padding: 20px 40px;
+        padding: 15px 15px; 
         height: auto; /* Biarkan tinggi menyesuaikan konten */
 
         /* Rata Kiri (Logo) dan Kanan (Hamburger) */
@@ -282,17 +282,19 @@
     .cobagambar,
     .cobagambar-dua,
     .cobagambar-tiga {
-        width: calc(100% - 48px); /* Gambar mengambil lebar penuh container card */
+        width: 100%; /* Gambar mengambil lebar penuh container card */
         height: auto;
-        margin: 24px; /* Margin konsisten di semua sisi gambar */
+        margin: 0px; /* Margin konsisten di semua sisi gambar */
         margin-bottom: 0;
     }
 
     .deskripsi-lapor-online,
     .deskripsi-lapor-online-dua,
     .deskripsi-lapor-online-tiga {
-        padding: 24px;
-        padding-top: 15px; /* Jarak antara gambar dan teks */
+        padding: 0px;
+        margin-left: 0rem;
+        /* padding: 24px;
+        padding-top: 15px;  */
     }
     
     .jamdicardlaporonline,
