@@ -1,4 +1,32 @@
 /*-- ----------------------------------------- APD SECTION ------------------------------------------------ --*/
+/* .test-ornamen {
+  background-image: url(../img/apbdes-bg-substract.webp);
+  background-repeat: no-repeat;
+  background-position: top 50px center;
+  z-index: -1;
+  background-size: contain;
+  position: absolute;
+} */
+.test-ornamen {
+  background-image: url(../img/apbdes-bg-substract.webp);
+  background-repeat: no-repeat;
+  
+  /* Perbaikan 1: Gunakan top, left, right, bottom untuk memenuhi container */
+  top: 16.90rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+/* Pastikan ornamen menutupi seluruh area parent-nya */
+  width: 100%;
+  height: 100%;
+  
+  background-position: center center; /* Pusatkan ornamen */
+  background-size: 100% auto; 
+  position: absolute;
+  z-index: -1; 
+}
+
 .apd {
   display: flex;
   margin: 0px 150px;
@@ -11,6 +39,10 @@
   /* box-shadow: 0 2px 10px rgba(41, 41, 41, 0.05); */
   box-shadow: 0px 0.14px 41px rgba(41, 41, 41, 0.05); /* paling soft */
   width: 9999%; /*untuk menyesuaikan lebar kontainer apd*/
+  background-image: url(../img/apbdes-substract.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
 }
 
 .apd-container h3 {

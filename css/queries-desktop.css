@@ -1,0 +1,82 @@
+/* ==================================================================== */
+/* === MEDIA QUERY: DESKTOP EKSTRA BESAR (>= 2000px = 125rem) === */
+/* ==================================================================== */
+@media (min-width: 2000px) {
+  /*  min-width untuk layar kecil ke besar */
+
+  /* --- Kontrol Lebar Konten Utama --- */
+  /* Ini adalah SOLUSI UTAMA agar konten tidak meregang di 1920px, 4K, dll. */
+  .hero-section {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+
+  /* --- NAVBAR --- */
+  .navbar {
+    padding: 25px 100px; /* Sesuaikan dengan margin hero section */
+  }
+
+  .hero-text h1 {
+    font-size: 85px; /* Lebih besar untuk mengimbangi layar besar */
+  }
+
+  .apd {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+
+  .news {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+
+  .berita-section {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+   .information,
+   .potensi,
+   .layanan,
+   .container-laporonline,
+   .container-laporonline-dua,
+   .container-laporonline-tiga {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+
+  .ini-grid-dilayanan {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .card-information-section, 
+  .potensi-section-grid {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  .lapor-online {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 12rem;
+  }
+
+  .container-peta {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+
+  .grid-container-footer {
+    max-width: 1800px; /* Batasi lebar maksimal HERO section */
+    margin: 0 auto;
+  }
+  
+}

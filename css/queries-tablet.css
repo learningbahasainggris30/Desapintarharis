@@ -72,6 +72,7 @@
         gap: 50px;
         /* Mengurangi margin horizontal */
         margin: 50px 40px;
+        margin-top: 6rem;
     }
 
     .hero-text h1 {
